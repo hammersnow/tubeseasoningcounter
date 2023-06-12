@@ -1,5 +1,6 @@
 #!/bin/bash
 #ekremiscan
+clear
 echo -e "\033[0;32mCHOOSE A SEASONING PROCEDURE MINUTE COUNTER\033[0m"
 echo -e ""
 echo -e "\033[0;37m 1) 50-2 | 12Dk"
@@ -28,25 +29,29 @@ echo -e " 23) 165-6 | 2Dk"
 echo -e " 24) 180-6 | 5Dk"
 echo -e " 25) 180-8 | 10Dk"
 echo -e ""
-echo -e " 0) BEEP TEST\033[0m"
+echo -e " 0) BEEP TEST"
+echo -e " e) EXIT\033[0m"
 read option
 case $option in
 
-0) echo -e "\a"
+e) exit
+;;
+
+0) beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -60,21 +65,21 @@ echo -e "\a DONE"
 	echo -e -n "$minute:$second"
 	sleep 1
 	done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -87,21 +92,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -114,21 +119,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -141,21 +146,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -169,21 +174,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -196,21 +201,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -223,21 +228,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -250,21 +255,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -277,21 +282,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -304,21 +309,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -331,21 +336,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -358,21 +363,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -385,21 +390,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -412,21 +417,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -439,21 +444,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -466,21 +471,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -493,21 +498,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -520,21 +525,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -547,21 +552,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -574,21 +579,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -601,21 +606,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -628,21 +633,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -655,21 +660,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -682,21 +687,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
@@ -709,21 +714,21 @@ echo -e "\a DONE"
         echo -e -n "$minute:$second"
         sleep 1
         done
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 1
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 sleep 0.20
-echo -e "\a"
+beep -f 2000 -l 250
 echo -e "\a DONE"
 ;;
 
